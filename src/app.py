@@ -14,8 +14,6 @@ def homepage():
     # Render HTML with variable
     return render_template("index.html", the_time=the_time, tema="dogs")
 
-
-
 @app.route('/status')
 def status():
     return "OK Todo"
